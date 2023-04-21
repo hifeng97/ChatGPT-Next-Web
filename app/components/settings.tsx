@@ -326,7 +326,7 @@ export function Settings() {
             </Popover>
           </SettingItem>
 
-          <SettingItem
+          {/* <SettingItem
             title={Locale.Settings.Update.Version(currentVersion ?? "unknown")}
             subTitle={
               checkingUpdate
@@ -349,7 +349,7 @@ export function Settings() {
                 onClick={() => checkUpdate(true)}
               />
             )}
-          </SettingItem>
+          </SettingItem> */}
 
           <SettingItem title={Locale.Settings.SendKey}>
             <select
@@ -468,7 +468,7 @@ export function Settings() {
             <></>
           )}
 
-          <SettingItem
+          {/* <SettingItem
             title={Locale.Settings.Token.Title}
             subTitle={Locale.Settings.Token.SubTitle}
           >
@@ -542,7 +542,7 @@ export function Settings() {
                 )
               }
             ></input>
-          </SettingItem>
+          </SettingItem> */}
         </List>
 
         <List>
@@ -617,7 +617,7 @@ export function Settings() {
               }}
             ></InputRange>
           </SettingItem>
-          <SettingItem
+          {/* <SettingItem
             title={Locale.Settings.MaxTokens.Title}
             subTitle={Locale.Settings.MaxTokens.SubTitle}
           >
@@ -636,7 +636,7 @@ export function Settings() {
                 )
               }
             ></input>
-          </SettingItem>
+          </SettingItem> */}
           <SettingItem
             title={Locale.Settings.PresencePenlty.Title}
             subTitle={Locale.Settings.PresencePenlty.SubTitle}
